@@ -1,0 +1,8 @@
+<generaloptions>
+	<language>en-us</language>
+	<fontColor>LawnGreen</fontColor>
+	<background>C:\Centralny\Zdjęcia\jedzenie\IMG_20170806_083113.jpg</background>
+	<wineSource>wines.csv</wineSource>
+	<dishSource>dishes.csv</dishSource>
+	<spiceSource>spices.csv</spiceSource>
+</generaloptions>ns>

@@ -1,0 +1,32 @@
+c:\users\psn\documents\visual studio 2017\Projects\FoodTips\FoodTips\obj\Debug\MainWindow.g.cs
+c:\users\psn\documents\visual studio 2017\Projects\FoodTips\FoodTips\obj\Debug\App.g.cs
+c:\users\psn\documents\visual studio 2017\Projects\FoodTips\FoodTips\obj\Debug\FoodTips_MarkupCompile.cache
+c:\users\psn\documents\visual studio 2017\Projects\FoodTips\FoodTips\obj\Debug\FoodTips_MarkupCompile.lref
+c:\users\psn\documents\visual studio 2017\Projects\FoodTips\FoodTips\obj\Debug\MainWindow.baml
+c:\users\psn\documents\visual studio 2017\Projects\FoodTips\FoodTips\obj\Debug\FoodTips.g.resources
+c:\users\psn\documents\visual studio 2017\Projects\FoodTips\FoodTips\obj\Debug\FoodTips.Properties.Resources.resources
+c:\users\psn\documents\visual studio 2017\Projects\FoodTips\FoodTips\obj\Debug\FoodTips.csproj.GenerateResource.Cache
+c:\users\psn\documents\visual studio 2017\Projects\FoodTips\FoodTips\obj\Debug\FoodTips.exe
+c:\users\psn\documents\visual studio 2017\Projects\FoodTips\FoodTips\obj\Debug\FoodTips.pdb
+c:\users\psn\documents\visual studio 2017\Projects\FoodTips\FoodTips\obj\Debug\MainPage.g.cs
+c:\users\psn\documents\visual studio 2017\Projects\FoodTips\FoodTips\obj\Debug\MainPage.baml
+C:\Users\PSn\documents\visual studio 2017\Projects\FoodTips\FoodTips\obj\Debug\MainPageChilderns\WindowNewWineItem.g.cs
+C:\Users\PSn\documents\visual studio 2017\Projects\FoodTips\FoodTips\obj\Debug\MainPageChilderns\WindowNewWineItem.baml
+C:\Users\PSn\documents\visual studio 2017\Projects\FoodTips\FoodTips\FoodTips.exe.config
+C:\Users\PSn\documents\visual studio 2017\Projects\FoodTips\FoodTips\FoodTips.exe
+C:\Users\PSn\documents\visual studio 2017\Projects\FoodTips\FoodTips\FoodTips.pdb
+C:\Users\PSn\documents\visual studio 2017\Projects\FoodTips\FoodTips\obj\Debug\FoodTips.csprojResolveAssemblyReference.cache
+C:\Users\PSn\documents\visual studio 2017\Projects\FoodTips\FoodTips\obj\Debug\MainPageChilderns\WindowNewDishItem.g.cs
+C:\Users\PSn\documents\visual studio 2017\Projects\FoodTips\FoodTips\obj\Debug\MainPageChilderns\WindowNewDishItem.baml
+C:\Users\PSn\documents\visual studio 2017\Projects\FoodTips\FoodTips\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\PSn\documents\visual studio 2017\Projects\FoodTips\FoodTips\obj\Debug\FoodTips.csproj.CoreCompileInputs.cache
+C:\Users\Paweł Sn\Documents\FoodTips\FoodTips\obj\Debug\FoodTips.csprojResolveAssemblyReference.cache
+C:\Users\Paweł Sn\Documents\FoodTips\FoodTips\obj\Debug\MainPage.g.cs
+C:\Users\Paweł Sn\Documents\FoodTips\FoodTips\obj\Debug\MainPageChilderns\WindowNewDishItem.g.cs
+C:\Users\Paweł Sn\Documents\FoodTips\FoodTips\obj\Debug\MainPageChilderns\WindowNewWineItem.g.cs
+C:\Users\Paweł Sn\Documents\FoodTips\FoodTips\obj\Debug\MainWindow.g.cs
+C:\Users\Paweł Sn\Documents\FoodTips\FoodTips\obj\Debug\App.g.cs
+C:\Users\Paweł Sn\Documents\FoodTips\FoodTips\obj\Debug\FoodTips_MarkupCompile.cache
+C:\Users\Paweł Sn\Documents\FoodTips\FoodTips\obj\Debug\FoodTips_MarkupCompile.lref
+C:\Users\Paweł Sn\Documents\FoodTips\FoodTips\obj\Debug\FoodTips.exe
+C:\Users\Paweł Sn\Documents\FoodTips\FoodTips\obj\Debug\FoodTips.pdb

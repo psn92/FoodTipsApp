@@ -1,0 +1,112 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace FoodTips.Language
+{
+    public interface DictionaryType
+    {
+        string MainWindow_Get_Openning();
+        string MainWindow_Get_ContentControl();
+        string MainWindow_Get_StartingPage();
+        string MainWindow_Get_Grid_Openning();
+        string MainWindow_Get_Button_GoToApp();
+        string MainWindow_Get_Button_Options();
+        string MainWindow_Get_TextBlock_keyEnter();
+        string MainWindow_Get_Grid_Options();
+        string MainWindow_Get_Grid_Options_Name();
+        string MainWindow_Get_Grid_Options_Language_Grid();
+        string MainWindow_Get_Grid_Options_Language_Label();
+        string MainWindow_Get_Grid_Options_Language_Value();
+        string MainWindow_Get_Grid_Options_FontColor_Grid();
+        string MainWindow_Get_Grid_Options_FontColor_Label();
+        string MainWindow_Get_Grid_Options_FontColor_Value();
+        string MainWindow_Get_Grid_Options_Background_Grid();
+        string MainWindow_Get_Grid_Options_Background_Label();
+        string MainWindow_Get_Grid_Options_Background_Value();
+        string MainWindow_Get_Grid_Options_Wines_Grid();
+        string MainWindow_Get_Grid_Options_Wines_Label();
+        string MainWindow_Get_Grid_Options_Wines_Value();
+        string MainWindow_Get_Grid_Options_Dishes_Grid();
+        string MainWindow_Get_Grid_Options_Dishes_Label();
+        string MainWindow_Get_Grid_Options_Dishes_Value();
+        string MainWindow_Get_Grid_Options_Spices_Grid();
+        string MainWindow_Get_Grid_Options_Spices_Label();
+        string MainWindow_Get_Grid_Options_Spices_Value();
+        string MainWindow_Get_Grid_Options_Buttons_Grid();
+        string MainWindow_Get_Grid_Options_ButtonSave();
+        string MainWindow_Get_Grid_Options_ButtonsReturn();
+        string MainWindow_Get_Grid_Options_ButtonDelete();
+        string MainWindow_AfterOptionsSave();
+        string MainWindow_BackgroundFileNotFound();
+
+        string WindowNewWineItem_Get_newWineWindow();
+        string WindowNewWineItem_Get_newWineWindow_Grid();
+        string WindowNewWineItem_Get_Grid_Name_Grid();
+        string WindowNewWineItem_Get_Grid_Name_Label();
+        string WindowNewWineItem_Get_Grid_Name_Label_AlreadyAdded();
+        string WindowNewWineItem_Get_Grid_Name_Value();
+        string WindowNewWineItem_Get_Grid_Variant_Grid();
+        string WindowNewWineItem_Get_Grid_Variant_Label();
+        string WindowNewWineItem_Get_Grid_Variant_Value();
+        string WindowNewWineItem_Get_Grid_Variant_Value_Red();
+        string WindowNewWineItem_Get_Grid_Variant_Value_Rose();
+        string WindowNewWineItem_Get_Grid_Variant_Value_White();
+        string WindowNewWineItem_Get_Grid_Variant_Value_Mead();
+        string WindowNewWineItem_Get_Grid_Specification_Grid();
+        string WindowNewWineItem_Get_Grid_Specification_Label();
+        string WindowNewWineItem_Get_Grid_Specification_Value();
+        string WindowNewWineItem_Get_Grid_Specification_Value_Dry();
+        string WindowNewWineItem_Get_Grid_Specification_Value_SemiDry();
+        string WindowNewWineItem_Get_Grid_Specification_Value_SemiSweet();
+        string WindowNewWineItem_Get_Grid_Specification_Value_Sweet();
+        string WindowNewWineItem_Get_Grid_Specification_Value_Poltorak();
+        string WindowNewWineItem_Get_Grid_Specification_Value_Dwojniak();
+        string WindowNewWineItem_Get_Grid_Specification_Value_Trojniak();
+        string WindowNewWineItem_Get_Grid_Specification_Value_Czworniak();
+        string WindowNewWineItem_Get_Grid_Region_Grid();
+        string WindowNewWineItem_Get_Grid_Region_Label();
+        string WindowNewWineItem_Get_Grid_Region_Value();
+        string WindowNewWineItem_Get_Grid_Score_Grid();
+        string WindowNewWineItem_Get_Grid_Score_Label();
+        string WindowNewWineItem_Get_Grid_Score_Value_Slider();
+        string WindowNewWineItem_Get_Grid_Score_Value();
+        string WindowNewWineItem_Get_Grid_Description_Grid();
+        string WindowNewWineItem_Get_Grid_Description_Label();
+        string WindowNewWineItem_Get_Grid_Description_Value();
+        string WindowNewWineItem_Get_Grid_AvailableOptions_Grid();
+        string WindowNewWineItem_Get_Grid_AvailableOptions_Button_NewItem();
+        string WindowNewWineItem_ReservedSymbols();
+
+        string MainPage_Get_MainWindow();
+        string MainPage_Get_TabControl_Wines_TabItem();
+        string MainPage_Get_TabControl_Wines_TabItem_ButtonsPanel_Grid_NewPosition_Button();
+        string MainPage_Get_TabControl_Wines_TabItem_ButtonsPanel_Grid_ShowDetails_Button();
+        string MainPage_Get_TabControl_Wines_TabItem_ButtonsPanel_Grid_Edit_Button();
+        string MainPage_Get_TabControl_Dishes_TabItem();
+        string MainPage_Get_TabControl_Dishes_TabItem_ButtonsPanel_Grid_NewPosition_Button();
+        string MainPage_Get_TabControl_Dishes_TabItem_ButtonsPanel_Grid_ShowDetails_Button();
+        string MainPage_Get_TabControl_Dishes_TabItem_ButtonsPanel_Grid_Edit_Button();
+        string MainPage_Get_TabControl_Spices_TabItem();
+        string MainPage_Get_TabControl_Spices_TabItem_ButtonsPanel_Grid_NewPosition_Button();
+        string MainPage_Get_TabControl_Spices_TabItem_ButtonsPanel_Grid_ShowDetails_Button();
+        string MainPage_Get_TabControl_Spices_TabItem_ButtonsPanel_Grid_Edit_Button();
+        string MainPage_ChooseDatagridPossition();
+        string MainPage_Get_ConfirmYes();
+        string MainPage_Get_ConfirmNo();
+        string MainPage_Get_DeleteQuestion();
+        string MainPage_Get_DeleteWindowTitle();
+
+        string WindowNewSpiceItem_Get_Grid_Name_Label();
+        string WindowNewSpiceItem_Get_Grid_Matchings_Label();
+        string WindowNewSpiceItem_Get_Grid_Description_Label();
+        string WindowNewSpiceItem_Get_Grid_LinkToSource_Label();
+
+        string WindowNewDishItem_Get_Grid_Name_Label();
+        string WindowNewDishItem_Get_Grid_Ingredients_Label();
+        string WindowNewDishItem_Get_Grid_SpicesMatchings_Label();
+        string WindowNewDishItem_Get_Grid_WinesMatchings_Label();
+    }
+}

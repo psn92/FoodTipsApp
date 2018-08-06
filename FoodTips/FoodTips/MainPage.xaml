@@ -1,0 +1,93 @@
+﻿<UserControl x:Class="FoodTips.MainPage"
+             Name="MainWindow"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:FoodTips"
+             mc:Ignorable="d">
+    <Grid x:Name="MainPageGrid">
+        <TabControl>
+            <!--zakładka PIERWSZA-->
+            <!--zakładka PIERWSZA-->
+            <!--zakładka PIERWSZA-->
+            <TabItem Name="TabControl_Wines_TabItem" FontFamily="Tohama" FontSize="20">
+                <StackPanel>
+                    <Grid>
+                        <Grid Name="TabControl_Wines_TabItem_Grid" Margin="0,5,150,0" Width="Auto">
+                            <DataGrid Name="TabControl_Wines_TabItem_WineData_Grid" AutoGenerateColumns="True" ItemsSource="{Binding}" Height="Auto" FontSize="14" IsReadOnly="True">
+                                <DataGrid.Resources>
+                                    <Style TargetType="DataGridRow">
+                                        <EventSetter Event="MouseDoubleClick" Handler="TabControl_Wines_TabItem_WineData_Grid_MouseDoubleClick"/>
+                                    </Style>
+                                </DataGrid.Resources>
+                            </DataGrid>
+                        </Grid>
+                        <Grid Name="TabControl_Wines_TabItem_ButtonsPanel_Grid" Margin="0,5,0,0" HorizontalAlignment="Right" VerticalAlignment="Top">
+                            <Button Name="TabControl_Wines_TabItem_ButtonsPanel_Grid_NewPosition_Button" Margin="0,-60,10,0" HorizontalAlignment="Left"
+                                Height="25" Width="130" FontSize="14" Click="TabControl_Wines_TabItem_ButtonsPanel_Grid_NewPosition_Button_Click"/>
+                            <Button Name="TabControl_Wines_TabItem_ButtonsPanel_Grid_ShowDetails_Button" Margin="0,0,10,0" HorizontalAlignment="Left"
+                                Height="25" Width="130" FontSize="14" Click="TabControl_Wines_TabItem_ButtonsPanel_Grid_ShowDetails_Button_Click"/>
+                            <Button Name="TabControl_Wines_TabItem_ButtonsPanel_Grid_Edit_Button" Margin="0,60,10,0" HorizontalAlignment="Left"
+                                Height="25" Width="130" FontSize="14" Click="TabControl_Wines_TabItem_ButtonsPanel_Grid_Edit_Button_Click"/>
+                        </Grid>
+                    </Grid>
+                </StackPanel>
+            </TabItem>
+            <!--zakładka DRUGA-->
+            <!--zakładka DRUGA-->
+            <!--zakładka DRUGA-->
+            <TabItem Name="TabControl_Dishes_TabItem" FontFamily="Tohama" FontSize="20">
+                <StackPanel>
+                    <Grid>
+                        <DataGrid Name="TabControl_Dishes_TabItem_DishData_Grid" Margin="0,5,150,0" Width="Auto" Height="Auto" FontSize="14" IsReadOnly="True">
+                            <DataGrid.Resources>
+                                <Style TargetType="DataGridRow">
+                                    <EventSetter Event="MouseDoubleClick" Handler="TabControl_Dishes_TabItem_DishData_Grid_MouseDoubleClick"/>
+                                </Style>
+                            </DataGrid.Resources>
+                        </DataGrid>
+                        <Grid Name="TabControl_Dishes_TabItem_ButtonsPanel_Grid" Margin="0,5,0,0" HorizontalAlignment="Right" VerticalAlignment="Top">
+                            <Button Name="TabControl_Dishes_TabItem_ButtonsPanel_Grid_NewPosition_Button" HorizontalAlignment="Left" Margin="0,-60,10,0"
+                                Height="25" Width="130" FontSize="14" 
+                                Click="TabControl_Dishes_TabItem_ButtonsPanel_Grid_NewPosition_Button_Click"/>
+                            <Button Name="TabControl_Dishes_TabItem_ButtonsPanel_Grid_ShowDetails_Button" Margin="0,0,10,0" 
+                                HorizontalAlignment="Left" Height="25" Width="130" FontSize="14" 
+                                Click="TabControl_Dishes_TabItem_ButtonsPanel_Grid_ShowDetails_Button_Click"/>
+                            <Button Name="TabControl_Dishes_TabItem_ButtonsPanel_Grid_Edit_Button" Margin="0,60,10,0"
+                                HorizontalAlignment="Left" Height="25" Width="130" FontSize="14"
+                                Click="TabControl_Dishes_TabItem_ButtonsPanel_Grid_Edit_Button_Click"/>
+                        </Grid>
+                    </Grid>
+                </StackPanel>
+            </TabItem>
+            <!--zakładka TRZECIA-->
+            <!--zakładka TRZECIA-->
+            <!--zakładka TRZECIA-->
+            <TabItem Name="TabControl_Spices_TabItem" FontFamily="Tohama" FontSize="20">
+                <StackPanel>
+                    <Grid>
+                        <DataGrid Name="TabControl_Spices_TabItem_SpiceData_Grid" Margin="0,5,150,0" Width="Auto" Height="Auto" FontSize="14" IsReadOnly="True">
+                            <DataGrid.Resources>
+                                <Style TargetType="DataGridRow">
+                                    <EventSetter Event="MouseDoubleClick" Handler="TabControl_Spices_TabItem_SpiceData_Grid_MouseDoubleClick"/>
+                                </Style>
+                            </DataGrid.Resources>
+                        </DataGrid>
+                        <Grid Name="TabControl_Spices_TabItem_ButtonsPanel_Grid" Margin="0,5,0,0" HorizontalAlignment="Right" VerticalAlignment="Top">
+                            <Button Name="TabControl_Spices_TabItem_ButtonsPanel_Grid_NewPosition_Button" HorizontalAlignment="Left" Margin="0,-60,10,0"
+                                Height="25" Width="130" FontSize="14"
+                                Click="TabControl_Spices_TabItem_ButtonsPanel_Grid_NewPosition_Button_Click"/>
+                            <Button Name="TabControl_Spices_TabItem_ButtonsPanel_Grid_ShowDetails_Button" Margin="0,0,10,0" 
+                                HorizontalAlignment="Left" Height="25" Width="130" FontSize="14"
+                                Click="TabControl_Spices_TabItem_ButtonsPanel_Grid_ShowDetails_Button_Click"/>
+                            <Button Name="TabControl_Spices_TabItem_ButtonsPanel_Grid_Edit_Button" Margin="0,60,10,0"
+                                HorizontalAlignment="Left" Height="25" Width="130" FontSize="14"
+                                Visibility="Hidden"/>
+                        </Grid>
+                    </Grid>
+                </StackPanel>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</UserControl>
